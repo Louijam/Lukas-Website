@@ -3,47 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KFZ Werkstatt Müller</title>
+    <title>KFZ Werkstatt</title>
+    <meta name="description" content="KFZ Werkstatt fuer Reparaturen, Wartung, Service und schnelle Kontaktaufnahme per WhatsApp.">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-    <!-- Navigation -->
-    <header>
-        <nav>
-            <h2>Werkstatt Müller</h2>
-            <ul>
-                <li><a href="#home">Start</a></li>
-                <li><a href="#leistungen">Leistungen</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
-            </ul>
-        </nav>
+    <header class="site-header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html">KFZ Werkstatt</a>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#start">Start</a></li>
+                    <li><a href="#leistungen">Leistungen</a></li>
+                    <li><a href="#preise">Preise</a></li>
+                    <li><a href="#galerie">Arbeiten</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <!-- Startbereich -->
-    <section id="home">
-        <h1>KFZ Werkstatt Müller</h1>
-        <p>Ihr Partner für Reparatur, Wartung und Service</p>
-    </section>
+    <main>
+        <section id="start" class="hero">
+            <div class="container">
+                <h1>Ihre KFZ Werkstatt fuer zuverlaessigen Service</h1>
+                <p>
+                    Reparaturen, Wartung und saubere Arbeit zu fairen Preisen.
+                    Schnell erreichbar und direkt per WhatsApp kontaktierbar.
+                </p>
 
-    <!-- Leistungen -->
-    <section id="leistungen">
-        <h2>Unsere Leistungen</h2>
-        <ul>
-            <li>Inspektion</li>
-            <li>Reparaturen</li>
-            <li>Reifenwechsel</li>
-            <li>TÜV Vorbereitung</li>
-        </ul>
-    </section>
+                <div class="hero-buttons">
+                    <a class="btn btn-primary" href="https://wa.me/491234567890" target="_blank" rel="noopener noreferrer">
+                        Per WhatsApp schreiben
+                    </a>
+                    <a class="btn btn-secondary" href="#kontakt">
+                        Kontakt ansehen
+                    </a>
+                </div>
+            </div>
+        </section>
 
-    <!-- Kontakt -->
-    <section id="kontakt">
-        <h2>Kontakt</h2>
-        <p>Adresse: Musterstraße 1</p>
-        <p>Telefon: 0123 456789</p>
-    </section>
+        <section id="leistungen" class="section">
+            <div class="container">
+                <h2>Unsere Leistungen</h2>
+                <div class="card-grid">
+                    <article class="card">
+                        <h3>Inspektion</h3>
+                        <p>Regelmaessige Wartung und Kontrolle fuer Sicherheit und Werterhalt.</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Reparaturen</h3>
+                        <p>Fachgerechte Reparaturen an verschiedenen Fahrzeugbereichen.</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Bremsenservice</h3>
+                        <p>Pruefung, Austausch und Wartung von Bremsen und Verschleissteilen.</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Reifenservice</h3>
+                        <p>Reifenwechsel, Montage und saisonaler Service fuer Ihr Fahrzeug.</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Oelwechsel</h3>
+                        <p>Schneller und sauberer Oelwechsel nach Herstellerangaben.</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Fehlersuche</h3>
+                        <p>Analyse und Diagnose bei Problemen und ungewoehnlichem Fahrzeugverhalten.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="preise" class="section section-light">
+            <div class="container">
+                <h2>Preise</h2>
+                <div class="price-list">
+                    <div class="price-item">
+                        <span>Oelwechsel</span>
+                        <span>ab 79 EUR</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Reifenwechsel</span>
+                        <span>ab 35 EUR</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Bremsenservice</span>
+                        <span>auf Anfrage</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Inspektion</span>
+                        <span>auf Anfrage</span>
+                    </div>
+                </div>
+                <p class="price-note">
+                    Die Preise dienen als Orientierung. Je nach Fahrzeug und Aufwand kann der Preis abweichen.
+                </p>
+            </div>
+        </section>
+
+        <section id="galerie" class="section">
+            <div class="container">
+                <h2>Einblicke in unsere Arbeiten</h2>
+                <div class="gallery-grid">
+                    <img src="images/arbeiten/arbeit1.jpg" alt="Beispiel einer Werkstattarbeit">
+                    <img src="images/arbeiten/arbeit2.jpg" alt="Beispiel einer Fahrzeugreparatur">
+                    <img src="images/arbeiten/arbeit3.jpg" alt="Beispiel eines Serviceeinsatzes">
+                </div>
+            </div>
+        </section>
+
+        <section id="kontakt" class="section section-light">
+            <div class="container">
+                <h2>Kontakt</h2>
+                <div class="contact-box">
+                    <p><strong>Adresse:</strong> Musterstrasse 1, 12345 Musterstadt</p>
+                    <p><strong>Telefon:</strong> 0123 456789</p>
+                    <p><strong>WhatsApp:</strong> 0123 456789</p>
+                    <p><strong>Oeffnungszeiten:</strong> Mo - Fr 08:00 - 18:00 Uhr</p>
+
+                    <a class="btn btn-primary" href="https://wa.me/491234567890" target="_blank" rel="noopener noreferrer">
+                        Jetzt auf WhatsApp schreiben
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 KFZ Werkstatt. Alle Rechte vorbehalten.</p>
+            <nav>
+                <ul>
+                    <li><a href="impressum.html">Impressum</a></li>
+                    <li><a href="datenschutz.html">Datenschutz</a></li>
+                    <li><a href="agb.html">AGB</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 
     <script src="js/script.js"></script>
 </body>
